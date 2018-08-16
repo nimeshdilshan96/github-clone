@@ -1,0 +1,164 @@
+
+@media (max-width: 1199.98px) {
+    
+    .description-students-teachers img{
+        width: 100%;
+    }
+
+    .description-content ul{
+       font-size: 14px;
+    }
+
+    .description-content h5{
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .description-content p{
+        font-size: 14px
+    }
+
+    .content-holder{
+        height: 100%;
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .service-showcase{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .service-item{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        padding: 15px;
+        box-shadow: 0 2px 2px #b2c6d4; 
+        border-radius: 5px;
+    }
+    
+    .service-item:hover,
+    .service-item:active{
+        box-shadow: 0 2px 2px #b2c6d4; 
+    }
+    
+    .heading{
+        padding-left: 15px;
+    }
+    
+    .message p{
+        margin-bottom: 25px
+    }
+    
+    .footer-title{
+        padding-left: 20px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    
+    header a{
+        font-size: 14px;
+    }
+    
+    header li{
+        padding: 0 10px;
+    }
+    
+    .heading h6{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .message h2{
+        font-size: 50px
+    }
+    
+    .message p{
+        font-size: 22px;
+    }
+    
+    .content-holder{
+        height: 100%;
+        text-align: center;
+        
+    }
+    
+    .description-content-text li{
+        list-style: none;
+    }
+    
+    .description-students-teachers img{
+        max-height: 300px;
+        object-fit: cover;
+    }
+    
+    .footer-title{
+        display: none;
+    }
+    
+    .list-holder{
+        margin-left: 20px;
+    }
+  
+}
+
+
+@media (max-width: 575.98px) {
+    
+    .heading{
+        display: none;
+    }
+    
+    .nav-list{
+        width: 100%;
+    }
+    
+    .nav-list ul{
+        justify-content: center;
+    }
+    
+    .nav-list ul li:last-child{
+        display: none;
+    }
+    
+    .message h2{
+        font-size: 40px;
+    }
+    
+    .message p{
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .service-item{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    
+    .service-item h5{
+        font-size: 20px;
+    }
+    
+    .service-item p{
+        font-size: 14px;
+    }
+    
+    .content-holder{
+        text-align: left;
+    }
+    
+    .list-holder{
+        width: 50%;
+        height: 220px;
+        margin: auto;
+    }
+}
+

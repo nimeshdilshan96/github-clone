@@ -1,0 +1,330 @@
+/*!
+ * Basic Setup
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    color: #39464e;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*!
+ * Type scale setup 
+ * LIGHT - 300 
+ * REGULAR - 400
+ * MEDIUM - 500
+ */
+
+h1{
+    font-weight: 300;
+    font-size: 96px;
+    letter-spacing: -1.5px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.25px;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+} 
+
+h6{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+}
+
+.subtitle-one{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+
+.subtitle-two{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+.body-one{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.body-two{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+}
+
+.button{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.caption{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.overline{
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+/*!
+ * Reusable components
+ */
+
+.container-lg{
+    max-width: 1012px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.py-4 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.border-bottom {
+    border-bottom: 1px #e1e4e8 solid !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border{
+    border: 1px #e1e4e8 solid;
+}
+
+.border-radius-2{
+    border-radius: 2px;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+/*!
+ * Header
+ */
+
+/*! Navigation */
+
+header{
+    background-color: #fafbfc;
+}
+
+header li{
+    padding: 0 15px;
+    list-style: none;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    text-decoration: none;
+    color: #228ad3;
+}
+
+.heading h6{
+    font-weight: 700;
+}
+
+/*!
+ * Message
+ */
+
+.message{
+    padding: 120px 16px 16px 16px;
+}
+
+.message h2{
+    margin-bottom: 10px;
+}
+
+.message p{
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #586069;
+}
+
+
+
+/*!
+ * Services
+ */
+
+.service-item img{
+    max-width: 150px;
+}
+
+.service-showcase{
+    margin-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.service-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20%;
+    padding-bottom: 40px
+}
+
+.service-item h5{
+    color: #228ad3;
+}
+
+
+
+
+/*!
+ * description-students-teachers
+ */
+
+.description-students-teachers{
+    padding: 40px 0;
+    background-color: #fafbfc;
+}
+
+.description-students-teachers img{
+    width: 465px;
+}
+
+.description-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px 0;
+}
+
+.description-content ul{
+    margin: 0 0 24px 24px;
+}
+
+.description-content h5{
+    color: #228ad3;
+    margin-bottom: 8px;
+}
+
+.description-content p{
+    margin-bottom: 10px;
+}
+
+.description-content-text{
+    padding: 16px 32px 40px 32px;
+}
+
+.btn-description{
+    background-color: #228ad3;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f5f1f1;
+}
+
+.description-content a{
+    text-decoration: none;
+}
+
+.content-holder{
+    box-shadow: 0 2px 2px #efefef;
+}
+
+
+/*!
+ * footer
+ */
+
+.footer-holder{
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer li a{
+    line-height: 25px;
+    color: #586069;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #228ad3;
+}
+
+
+.list-holder{
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+footer h6{
+    margin-bottom: 8px;
+}
+
+.footer-title h6{
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+
